@@ -11,4 +11,5 @@ PRODUCT_PACKAGES += \
     OPIconpackOxygen \
     OPIconpackRound \
     OPWidget \
-    OPWeather
+    OPWeather \
+    RemovePackages
