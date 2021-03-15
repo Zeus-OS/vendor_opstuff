@@ -8,7 +8,11 @@ LOCAL_OVERRIDES_PACKAGES := Launcher3 \
                                                         Launcher3QuickStep \
                                                         NexusLauncherRelease \
                                                         TrebuchetQuickStep \
-                                                        ParanoidQuickStep
+                                                        ParanoidQuickStep \
+                                                        Gallery \
+                                                        Gallery2 \
+                                                        Gallery3D \
+                                                        GalleryNew3D
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_SRC_FILES := /dev/null
