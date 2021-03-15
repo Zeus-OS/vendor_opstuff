@@ -7,9 +7,13 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     OnePlusRecentsProvider \
     OPLauncher \
+    RemovePackages
+
+ifneq ($(WITH_MINIMAL_OPAPPS), true)
+PRODUCT_PACKAGES += \
     OPGallery \
     OPIconpackOxygen \
     OPIconpackRound \
     OPWidget \
-    OPWeather \
-    RemovePackages
+    OPWeather
+endif
