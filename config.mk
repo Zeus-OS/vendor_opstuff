@@ -11,7 +11,6 @@ PRODUCT_PACKAGES += \
 
 ifneq ($(WITH_MINIMAL_OPAPPS), true)
 PRODUCT_PACKAGES += \
-    OPGallery \
     OPIconpackOxygen \
     OPIconpackRound \
     OPWidget \
